@@ -1,5 +1,5 @@
-Assignment 1
-by Tyler Decker
+Tyler Decker
+These commands will run the program, the first to start the registry, the second to start a messaging node:
 
-Each file is pretty self explanatory on what it does, I followed the structure 
-suggested . Could not figure out how to get the correct amount of recieved packets but most of the other components are solid.
+java overlay.overlay.node.Registry portnum
+java overlay.overlay.node.MessagingNode registry-host registry-port
